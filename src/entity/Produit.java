@@ -6,10 +6,16 @@ public class Produit implements I_Produit {
     private double prixUnitaireHT;
     private double tauxTVA;
 
-    public Produit(String nom, double prixUnitaireHT, int quantiteStock) {
-        this.quantiteStock = quantiteStock;
-        this.nom = nom;
-        this.prixUnitaireHT = prixUnitaireHT;
+    public Produit(String nom, double prixUnitaireHT, int quantiteStock) throws Exception {
+        if(prixUnitaireHT>0&&quantiteStock>-1){
+            this.quantiteStock = quantiteStock;
+            this.nom = nom.trim();
+            this.prixUnitaireHT = prixUnitaireHT;
+            this.tauxTVA=0.2;
+        }else {
+            throw new Exception("prix ou stock <0");
+        }
+
     }
 
     @Override
@@ -46,16 +52,16 @@ public class Produit implements I_Produit {
 
     @Override
     public double getPrixUnitaireHT() {
-        return prixUnitaireHT;
+        return  prixUnitaireHT;
     }
 
     @Override
     public double getPrixUnitaireTTC() {
-        return prixUnitaireHT*tauxTVA;
+        return prixUnitaireHT*(1+tauxTVA);
     }
 
     @Override
     public double getPrixStockTTC() {
-        return prixUnitaireHT*tauxTVA*quantiteStock;
+        return getPrixUnitaireTTC() * quantiteStock;
     }
 }
