@@ -6,7 +6,7 @@ public class Produit implements I_Produit {
     private double prixUnitaireHT;
     private double tauxTVA;
 
-    public Produit(int quantiteStock, String nom, double prixUnitaireHT) {
+    public Produit(String nom, double prixUnitaireHT, int quantiteStock) {
         this.quantiteStock = quantiteStock;
         this.nom = nom;
         this.prixUnitaireHT = prixUnitaireHT;
