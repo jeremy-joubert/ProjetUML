@@ -806,7 +806,7 @@ public class CatalogueTest {
 
     private I_Produit createProduit(String nom, double prixHT, int quantite) {
         try {
-            return new Produit(quantite,nom,prixHT);
+            return new Produit(nom,prixHT,quantite);
         }
         catch (Exception e) { return null; }
     }

@@ -7,6 +7,7 @@ public class Catalogue implements I_Catalogue {
     private ArrayList<I_Produit> lesProduits;
 
     public Catalogue() {
+        lesProduits=new ArrayList<>();
     }
 
     @Override
@@ -17,7 +18,7 @@ public class Catalogue implements I_Catalogue {
 
     @Override
     public boolean addProduit(String nom, double prix, int qte) {
-        Produit produit=new Produit(qte, nom, prix);
+        Produit produit=new Produit(nom, prix, qte);
         lesProduits.add(produit);
         return true;
     }
