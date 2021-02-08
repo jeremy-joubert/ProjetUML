@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8115d3f-2028-4432-a99b-d2010671739f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ProjetSQL.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetSQL.ipr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetSQL.iws" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetSQL.iws" afterDir="false" />
-    </list>
+    <list default="true" id="c8115d3f-2028-4432-a99b-d2010671739f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -276,7 +273,7 @@
       <workItem from="1612690032229" duration="1362000" />
       <workItem from="1612777374371" duration="170000" />
       <workItem from="1612777685836" duration="22000" />
-      <workItem from="1612777842302" duration="696000" />
+      <workItem from="1612777842302" duration="892000" />
     </task>
     <task id="LOCAL-00001" summary="inintialisation">
       <created>1612524498539</created>
@@ -306,15 +303,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612778078970</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="inintialisation">
+      <created>1612778556394</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612778556394</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3413000" />
+    <option name="totallyTimeSpent" value="3609000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21428572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -326,7 +329,7 @@
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.4989339" visible="true" weight="0.32998884" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4989339" weight="0.32998884" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -335,7 +338,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32998884" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.32998884" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="12" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.32998884" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32995495" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
