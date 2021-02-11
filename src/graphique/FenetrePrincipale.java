@@ -1,8 +1,13 @@
 package graphique;
 
-import java.awt.*;
-import java.awt.event.*;
+import controller.Controller;
+
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowListener;
 
 
 
@@ -17,10 +22,12 @@ public class FenetrePrincipale extends JFrame implements ActionListener,
     private JButton btAchat;
     private JButton btVente;
     private JButton btQuitter;
+    private Controller controller;
 
 
     public FenetrePrincipale() {
 
+        controller=new Controller();
         setTitle("exercice Produits");
         setBounds(500, 500, 320, 250);
         JPanel panAffichage = new JPanel();
@@ -70,7 +77,7 @@ public class FenetrePrincipale extends JFrame implements ActionListener,
 
 /* tabProduits permet de tester le fonctionnement des fenêtres avec un tableau de noms de produits "en dur"
    Quand l'application fonctionnera, il faudra bien sûr récupérer les noms des produits dans le Catalogue */
-        String[] tabProduits = new String[] { "Mars", "Raider", "Twix", "Treets", "M&M's", "Smarties" };
+        String[] tabProduits = controller.getNomProduits();
         /* Même chose pour tabCategories (partie 4) */
 //		String[] tabCategories = new String[] {"Bio", "Luxe" };
 
@@ -78,9 +85,9 @@ public class FenetrePrincipale extends JFrame implements ActionListener,
             new FenetreAffichage("ajourd'hui nous allons faire de la programmation en 5 couches");
         if (e.getSource() == btNouveauProduit)
 //			new FenetreNouveauProduit(tabCategories);
-            new FenetreNouveauProduit();
+            new FenetreNouveauProduit(controller.getEditerProduitController());
         if (e.getSource() == btSupprimerProduit)
-            new FenetreSuppressionProduit(tabProduits);
+            new FenetreSuppressionProduit(tabProduits, controller.getEditerProduitController());
 //		if (e.getSource() == btNouvelleCategorie)
 //			new FenetreNouvelleCategorie();
 //		if (e.getSource() == btSupprimerCategorie)

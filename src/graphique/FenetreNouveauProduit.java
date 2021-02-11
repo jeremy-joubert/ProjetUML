@@ -1,8 +1,11 @@
 package graphique;
 
-import java.awt.*;
-import java.awt.event.*;
+import controller.EditerProduitController;
+
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class FenetreNouveauProduit extends JFrame implements ActionListener {
 
@@ -11,10 +14,12 @@ public class FenetreNouveauProduit extends JFrame implements ActionListener {
     private JTextField txtQte;
     //	private JComboBox<String> combo;
     private JButton btValider;
+    private EditerProduitController controller;
 
     //	public FenetreNouveauProduit(String[] lesCategories) {
-    public FenetreNouveauProduit() {
+    public FenetreNouveauProduit(EditerProduitController controller) {
 
+        this.controller=controller;
         setTitle("Creation Produit");
         setBounds(500, 500, 200, 250);
         Container contentPane = getContentPane();
@@ -49,6 +54,7 @@ public class FenetreNouveauProduit extends JFrame implements ActionListener {
 
     public void actionPerformed(ActionEvent e) {
         this.dispose();
+        controller.nouveauProduit(txtNom.getText(), Double.parseDouble(txtPrixHT.getText()), Integer.parseInt(txtQte.getText()));
     }
 
 }
