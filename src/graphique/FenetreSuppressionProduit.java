@@ -1,16 +1,21 @@
 package graphique;
 
-import java.awt.*;
-import java.awt.event.*;
+import controller.EditerProduitController;
+
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class FenetreSuppressionProduit extends JFrame implements ActionListener {
 
     private JButton btSupprimer;
     private JComboBox<String> combo;
+    private EditerProduitController controller;
 
-    public FenetreSuppressionProduit(String lesProduits[]) {
+    public FenetreSuppressionProduit(String lesProduits[], EditerProduitController controller) {
 
+        this.controller=controller;
         setTitle("Suppression produit");
         setBounds(500, 500, 200, 105);
         Container contentPane = getContentPane();
@@ -30,6 +35,7 @@ public class FenetreSuppressionProduit extends JFrame implements ActionListener 
 
     public void actionPerformed(ActionEvent e) {
         this.dispose();
+        controller.suppressionProduit(combo.getSelectedItem().toString());
     }
 
 }
