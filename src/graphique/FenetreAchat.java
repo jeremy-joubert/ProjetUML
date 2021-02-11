@@ -1,17 +1,22 @@
 package graphique;
 
-import java.awt.*;
-import java.awt.event.*;
+import controller.NewAchatVenteController;
+
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class FenetreAchat extends JFrame implements ActionListener {
 
     private JButton btAchat;
     private JTextField txtQuantite;
     private JComboBox<String> combo;
+    private NewAchatVenteController controller;
 
-    public FenetreAchat(String[] lesProduits) {
+    public FenetreAchat(String[] lesProduits, NewAchatVenteController controller) {
 
+        this.controller=controller;
         setTitle("Achat");
         setBounds(500, 500, 200, 125);
         Container contentPane = getContentPane();
@@ -35,6 +40,7 @@ public class FenetreAchat extends JFrame implements ActionListener {
 
     public void actionPerformed(ActionEvent e) {
         this.dispose();
+        controller.newAchat(combo.getSelectedItem().toString(), Integer.parseInt(txtQuantite.getText()));
     }
 
 }
