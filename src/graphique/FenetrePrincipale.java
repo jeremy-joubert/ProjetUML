@@ -82,7 +82,7 @@ public class FenetrePrincipale extends JFrame implements ActionListener,
 //		String[] tabCategories = new String[] {"Bio", "Luxe" };
 
         if (e.getSource() == btAfficher)
-            new FenetreAffichage("ajourd'hui nous allons faire de la programmation en 5 couches");
+            new FenetreAffichage(controller.getInfoEtatStocksController().toString());
         if (e.getSource() == btNouveauProduit)
 //			new FenetreNouveauProduit(tabCategories);
             new FenetreNouveauProduit(controller.getEditerProduitController());
