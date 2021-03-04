@@ -1,8 +1,10 @@
 package entity;
 
-import java.text.DecimalFormat;
+import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
+
 
 public class Catalogue implements I_Catalogue {
     private ArrayList<I_Produit> lesProduits;
@@ -14,10 +16,16 @@ public class Catalogue implements I_Catalogue {
     @Override
     public String toString() {
         String r="";
+        Double nb = getMontantTotalTTC();
+        NumberFormat nf_in = NumberFormat.getNumberInstance(Locale.GERMANY);
+        double val = nf_in.parse(nb).doubleValue();
+        NumberFormat nf_out = NumberFormat.getNumberInstance(Locale.FRANCE);
+        nf_out.setMaximumFractionDigits(3);
+        String s = nf_out.format(val);
         for(I_Produit produit : lesProduits){
             r=r+produit.getNom()+" - prix HT : "+produit.getPrixUnitaireHT()+" € - prix TTC : "+produit.getPrixUnitaireTTC()+" € - quantité en stock : "+produit.getQuantite() + "\n";
         }
-        r=r+"Montant total TTC du stock : "+getMontantTotalTTC()+" €";
+        r=r+"Montant total TTC du stock : "+s+" €";
         return r;
     }
 
@@ -123,13 +131,11 @@ public class Catalogue implements I_Catalogue {
 
     @Override
     public double getMontantTotalTTC() {
-        DecimalFormat df = new DecimalFormat () ;
-        df.setMaximumFractionDigits ( 2 );
         double somme=0;
         for(I_Produit produit : lesProduits){
             somme=somme+produit.getPrixStockTTC();
         }
-        return  Double.parseDouble(df.format (somme));
+        return somme;
     }
 
     @Override
