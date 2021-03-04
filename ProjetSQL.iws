@@ -1,19 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c8115d3f-2028-4432-a99b-d2010671739f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/DAO/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/ProduitDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetSQL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetSQL.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetSQL.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetSQL.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjetSQL.iws" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetSQL.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSQL/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSQL/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSQL/entity/Catalogue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSQL/entity/Catalogue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSQL/entity/I_Catalogue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSQL/entity/I_Catalogue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSQL/entity/I_Produit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSQL/entity/I_Produit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSQL/entity/Produit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSQL/entity/Produit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSQL/graphique/FenetreAchat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSQL/graphique/FenetreAchat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSQL/graphique/FenetreAffichage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSQL/graphique/FenetreAffichage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetSQL/graphique/FenetreNouveauProduit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSQL/graphique/FenetreNouveauProduit.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetSQL/graphique/FenetrePrincipale.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSQL/graphique/FenetrePrincipale.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetSQL/graphique/FenetreSuppressionProduit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSQL/graphique/FenetreSuppressionProduit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/NewAchatVenteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/NewAchatVenteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphique/FenetreAchat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphique/FenetreAchat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphique/FenetrePrincipale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphique/FenetrePrincipale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphique/FenetreVente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphique/FenetreVente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSQL/graphique/FenetreVente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSQL/graphique/FenetreVente.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,147 +48,13 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/graphique/FenetrePrincipale.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="97" column="81" selection-start-line="97" selection-start-column="81" selection-end-line="97" selection-end-column="81" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/graphique/FenetreAchat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="42" column="103" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="103" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/NewAchatVenteController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/InfoEtatStocksController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entity/Produit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entity/Catalogue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2820">
-              <caret line="127" column="23" selection-start-line="127" selection-start-column="23" selection-end-line="127" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/EditerProduitController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-              <folding>
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#407#408#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
-              <folding>
-                <element signature="e#374#375#0" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
-                <element signature="e#868#869#0" expanded="true" />
-                <element signature="e#915#916#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/graphique/FenetreVente.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="40" column="105" selection-start-line="40" selection-start-column="105" selection-end-line="40" selection-end-column="105" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/graphique/FenetreSuppressionProduit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Arquillian JUnit Test Class" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -177,88 +66,11 @@
       </map>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/graphique/FenetreAffichage.java" />
-        <option value="$PROJECT_DIR$/src/graphique/FenetreSupressionProduit.java" />
-        <option value="$PROJECT_DIR$/src/entity/I_Catalogue.java" />
-        <option value="$PROJECT_DIR$/src/entity/I_Produit.java" />
-        <option value="$PROJECT_DIR$/src/test/CatalogueTest.java" />
-        <option value="$PROJECT_DIR$/src/entity/Catalogue.java" />
-        <option value="$PROJECT_DIR$/src/entity/Produit.java" />
-        <option value="$PROJECT_DIR$/src/controller/EditerProduitController.java" />
-        <option value="$PROJECT_DIR$/src/graphique/FenetreSuppressionProduit.java" />
-        <option value="$PROJECT_DIR$/src/graphique/FenetreNouveauProduit.java" />
-        <option value="$PROJECT_DIR$/src/controller/NewAchatVenteController.java" />
-        <option value="$PROJECT_DIR$/src/controller/Controller.java" />
-        <option value="$PROJECT_DIR$/src/graphique/FenetreAchat.java" />
-        <option value="$PROJECT_DIR$/src/graphique/FenetreVente.java" />
-        <option value="$PROJECT_DIR$/src/graphique/FenetrePrincipale.java" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="976" />
-    <option name="height" value="1056" />
-  </component>
+  <component name="ProjectId" id="1pIWJilJirVCPzWCcWB9ZTi8o8V" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ProjetSQL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetSQL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetSQL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetSQL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetSQL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetSQL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetSQL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetSQL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetSQL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetSQL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="graphique" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetSQL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetSQL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -272,7 +84,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Téléchargements/ojdbc6.jar!/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -281,6 +93,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -290,18 +105,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jar" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.FenetrePrincipale">
     <configuration name="FenetrePrincipale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -492,111 +298,19 @@
     <option name="localTasksCounter" value="12" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="CatalogueTest_testToString_CatalogueAvecDesProduits_AvecDesEspaceDansLesNomsDesProduit - 2021.02.08 at 15h 54m 45s.xml">
-      <configuration name="CatalogueTest.testToString_CatalogueAvecDesProduits_AvecDesEspaceDansLesNomsDesProduit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CatalogueTest - 2021.02.08 at 15h 54m 59s.xml">
-      <configuration name="CatalogueTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CatalogueTest_testVendreProduit_quantiteNegative - 2021.02.08 at 16h 01m 04s.xml">
-      <configuration name="CatalogueTest.testVendreProduit_quantiteNegative" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CatalogueTest - 2021.02.08 at 16h 01m 12s.xml">
-      <configuration name="CatalogueTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CatalogueTest_testAddProduitStringDoubleInt_stockNul - 2021.02.08 at 16h 03m 36s.xml">
-      <configuration name="CatalogueTest.testAddProduitStringDoubleInt_stockNul" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CatalogueTest_testAddProduitStringDoubleInt_stockNul - 2021.02.08 at 16h 04m 14s.xml">
-      <configuration name="CatalogueTest.testAddProduitStringDoubleInt_stockNul" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CatalogueTest_testAddProduitStringDoubleInt_stockNul - 2021.02.08 at 16h 04m 57s.xml">
-      <configuration name="CatalogueTest.testAddProduitStringDoubleInt_stockNul" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CatalogueTest - 2021.02.08 at 16h 05m 06s.xml">
-      <configuration name="CatalogueTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CatalogueTest - 2021.02.08 at 16h 14m 00s.xml">
-      <configuration name="CatalogueTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CatalogueTest - 2021.02.11 at 16h 42m 49s.xml">
-      <configuration name="CatalogueTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24091000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2249467" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32998884" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49946696" weight="0.32998884" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.4989339" visible="true" weight="0.32998884" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39910814" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32998884" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.32998884" />
-      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32995495" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.32995737" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2249467" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32998884" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49946696" weight="0.32998884" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4989339" visible="true" weight="0.32998884" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39910814" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32998884" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.32998884" />
-      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32995495" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.32995737" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inintialisation" />
@@ -604,13 +318,42 @@
     <MESSAGE value="controller" />
     <option name="LAST_COMMIT_MESSAGE" value="controller" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="681" y="245" width="374" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1614873701815">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state x="681" y="245" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/67.27.1613.1023@67.27.1613.1023" timestamp="1614873701815" />
+    <state x="501" y="338" width="735" height="513" key="FileChooserDialogImpl" timestamp="1614872378322">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state x="501" y="338" width="735" height="513" key="FileChooserDialogImpl/67.27.1613.1023@67.27.1613.1023" timestamp="1614872378322" />
+    <state width="1567" height="268" key="GridCell.Tab.0.bottom" timestamp="1614872301753">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state width="1567" height="268" key="GridCell.Tab.0.bottom/67.27.1613.1023@67.27.1613.1023" timestamp="1614872301753" />
+    <state width="1567" height="268" key="GridCell.Tab.0.center" timestamp="1614872301751">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state width="1567" height="268" key="GridCell.Tab.0.center/67.27.1613.1023@67.27.1613.1023" timestamp="1614872301751" />
+    <state width="1567" height="268" key="GridCell.Tab.0.left" timestamp="1614872301751">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state width="1567" height="268" key="GridCell.Tab.0.left/67.27.1613.1023@67.27.1613.1023" timestamp="1614872301751" />
+    <state width="1567" height="268" key="GridCell.Tab.0.right" timestamp="1614872301753">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state width="1567" height="268" key="GridCell.Tab.0.right/67.27.1613.1023@67.27.1613.1023" timestamp="1614872301753" />
+    <state x="362" y="172" width="1024" height="845" key="SettingsEditor" timestamp="1614872385525">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state x="362" y="172" width="1024" height="845" key="SettingsEditor/67.27.1613.1023@67.27.1613.1023" timestamp="1614872385525" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/CatalogueTest.java</url>
           <line>692</line>
-          <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
@@ -619,188 +362,5 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/graphique/FenetreSupressionProduit.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/Catalogue.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="700" selection-start-line="700" selection-end-line="700" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/CatalogueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="768" selection-start-line="768" selection-end-line="768" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/graphique/FenetreAffichage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1052">
-          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/I_Produit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/graphique/FenetreSuppressionProduit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/graphique/FenetreNouveauProduit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="876">
-          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/I_Catalogue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/NewAchatVenteController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
-          <folding>
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#915#916#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/InfoEtatStocksController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/Produit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/Catalogue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2820">
-          <caret line="127" column="23" selection-start-line="127" selection-start-column="23" selection-end-line="127" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/EditerProduitController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-          <folding>
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/graphique/FenetreAchat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="42" column="103" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="103" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/graphique/FenetreVente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="40" column="105" selection-start-line="40" selection-start-column="105" selection-end-line="40" selection-end-column="105" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/graphique/FenetrePrincipale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="97" column="81" selection-start-line="97" selection-start-column="81" selection-end-line="97" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>12</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
