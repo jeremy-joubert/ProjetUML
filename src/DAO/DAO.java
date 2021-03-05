@@ -7,9 +7,9 @@ import java.util.List;
 
 public interface DAO {
    Connection connectionBD();
-   void create(I_Produit produit);
+   boolean create(I_Produit produit);
    List read();
-   void update();
+   boolean update(I_Produit produit);
    void delete();
    void close();
 

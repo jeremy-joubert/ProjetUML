@@ -36,11 +36,21 @@ public class ProduitDAO implements DAO {
         return connection;
     }
 
-
     @Override
-    public void create(Produit produit) {
+    public boolean create(I_Produit produit) {
+        try {
+            PreparedStatement preparedStatement=connection.prepareStatement("CALL procedure_add_produit(?, ?, ?)");
+            preparedStatement.setString(1, produit.getNom());
+            preparedStatement.setInt(2, produit.getQuantite());
+            preparedStatement.setDouble(3, produit.getPrixUnitaireHT());
+            return preparedStatement.execute();
 
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+        return false;
     }
+
 
     @Override
     public List<I_Produit> read() {
@@ -67,8 +77,18 @@ public class ProduitDAO implements DAO {
     }
 
     @Override
-    public void update() {
+    public boolean update(I_Produit produit) {
+        try {
+            PreparedStatement preparedStatement=connection.prepareStatement("CALL procedure_add_produit(?, ?, ?)");
+            preparedStatement.setString(1, produit.getNom());
+            preparedStatement.setInt(2, produit.getQuantite());
+            preparedStatement.setDouble(3, produit.getPrixUnitaireHT());
+            return preparedStatement.execute();
 
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+        return false;
     }
 
     @Override
