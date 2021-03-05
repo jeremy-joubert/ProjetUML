@@ -17,7 +17,7 @@ public class Produit implements I_Produit {
             this.tauxTVA=0.2;
             this.prixUnitaireTTC=prixUnitaireHT*(1+tauxTVA);
         }else {
-            throw new Exception("prix ou stock <0")
+            throw new Exception("prix ou stock <0");
         }
 
     }
