@@ -129,7 +129,7 @@ public class Catalogue implements I_Catalogue {
         for(I_Produit produit : lesProduits){
             somme=somme+produit.getPrixStockTTC();
         }
-        return somme;
+        return (double)Math.round(somme*100)/100;
     }
 
     @Override

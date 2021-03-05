@@ -12,7 +12,7 @@ public class Produit implements I_Produit {
     public Produit(String nom, double prixUnitaireHT, int quantiteStock) throws Exception {
         if(prixUnitaireHT>0&&quantiteStock>-1){
             this.quantiteStock = quantiteStock;
-            this.nom = nom.trim();
+            this.nom = (nom).trim().replaceAll("\t", " ");
             this.prixUnitaireHT = prixUnitaireHT;
             this.tauxTVA=0.2;
             this.prixUnitaireTTC=prixUnitaireHT*(1+tauxTVA);
@@ -66,4 +66,11 @@ public class Produit implements I_Produit {
     public double getPrixStockTTC() {
         return getPrixUnitaireTTC() * quantiteStock;
     }
+
+    public static void main(String[] args) {
+        String nom = " hello    there   ";
+        System.out.println(new String(nom).trim().replaceAll("\\s{2,}", " "));
+    }
+
 }
+
