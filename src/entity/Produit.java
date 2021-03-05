@@ -1,17 +1,21 @@
 package entity;
 
+import java.text.DecimalFormat;
+
 public class Produit implements I_Produit {
     private int quantiteStock;
     private String nom;
     private double prixUnitaireHT;
+    private double prixUnitaireTTC;
     private double tauxTVA;
 
     public Produit(String nom, double prixUnitaireHT, int quantiteStock) throws Exception {
         if(prixUnitaireHT>0&&quantiteStock>-1){
             this.quantiteStock = quantiteStock;
-            this.nom = nom.trim();
+            this.nom = (nom).trim().replaceAll("\t", " ");
             this.prixUnitaireHT = prixUnitaireHT;
             this.tauxTVA=0.2;
+            this.prixUnitaireTTC=prixUnitaireHT*(1+tauxTVA);
         }else {
             throw new Exception("prix ou stock <0");
         }
@@ -20,12 +24,10 @@ public class Produit implements I_Produit {
 
     @Override
     public String toString() {
-        return "Produit{" +
-                "quantiteStock=" + quantiteStock +
-                ", nom='" + nom + '\'' +
-                ", prixUnitaireHT=" + prixUnitaireHT +
-                ", tauxTVA=" + tauxTVA +
-                '}';
+        DecimalFormat df = new DecimalFormat("0.00");
+        String produitToString="";
+        produitToString=produitToString + (getNom()+" - prix HT : "+df.format(prixUnitaireHT)+" € - prix TTC : "+df.format(prixUnitaireTTC)+" € - quantité en stock : "+getQuantite());
+        return produitToString;
     }
 
     @Override
@@ -64,4 +66,11 @@ public class Produit implements I_Produit {
     public double getPrixStockTTC() {
         return getPrixUnitaireTTC() * quantiteStock;
     }
+
+    public static void main(String[] args) {
+        String nom = " hello    there   ";
+        System.out.println(new String(nom).trim().replaceAll("\\s{2,}", " "));
+    }
+
 }
+

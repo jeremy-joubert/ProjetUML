@@ -4,6 +4,7 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class Catalogue implements I_Catalogue {
     private ArrayList<I_Produit> lesProduits;
 
@@ -13,11 +14,12 @@ public class Catalogue implements I_Catalogue {
 
     @Override
     public String toString() {
+        DecimalFormat df = new DecimalFormat("0.00");
         String r="";
         for(I_Produit produit : lesProduits){
-            r=r+produit.getNom()+" - prix HT : "+produit.getPrixUnitaireHT()+" € - prix TTC : "+produit.getPrixUnitaireTTC()+" € - quantité en stock : "+produit.getQuantite() + "\n";
+            r=r+produit.toString()+"\n";
         }
-        r=r+"Montant total TTC du stock : "+getMontantTotalTTC()+" €";
+        r=r+"\nMontant total TTC du stock : "+df.format(getMontantTotalTTC())+" €";
         return r;
     }
 
@@ -123,13 +125,11 @@ public class Catalogue implements I_Catalogue {
 
     @Override
     public double getMontantTotalTTC() {
-        DecimalFormat df = new DecimalFormat () ;
-        df.setMaximumFractionDigits ( 2 );
         double somme=0;
         for(I_Produit produit : lesProduits){
             somme=somme+produit.getPrixStockTTC();
         }
-        return  Double.parseDouble(df.format (somme));
+        return (double)Math.round(somme*100)/100;
     }
 
     @Override
