@@ -1,9 +1,8 @@
 package entity;
 
-import java.text.NumberFormat;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
 
 
 public class Catalogue implements I_Catalogue {
@@ -15,17 +14,12 @@ public class Catalogue implements I_Catalogue {
 
     @Override
     public String toString() {
+        DecimalFormat df = new DecimalFormat("0.00");
         String r="";
-        Double nb = getMontantTotalTTC();
-        NumberFormat nf_in = NumberFormat.getNumberInstance(Locale.GERMANY);
-        double val = nf_in.parse(nb).doubleValue();
-        NumberFormat nf_out = NumberFormat.getNumberInstance(Locale.FRANCE);
-        nf_out.setMaximumFractionDigits(3);
-        String s = nf_out.format(val);
         for(I_Produit produit : lesProduits){
-            r=r+produit.getNom()+" - prix HT : "+produit.getPrixUnitaireHT()+" € - prix TTC : "+produit.getPrixUnitaireTTC()+" € - quantité en stock : "+produit.getQuantite() + "\n";
+            r=r+produit.toString()+"\n";
         }
-        r=r+"Montant total TTC du stock : "+s+" €";
+        r=r+"\nMontant total TTC du stock : "+df.format(getMontantTotalTTC())+" €";
         return r;
     }
 
