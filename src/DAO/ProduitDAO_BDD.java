@@ -1,7 +1,7 @@
 package DAO;
 
 import entity.I_Produit;
-import entity.Produit;
+import factory.ProduitFactory;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -49,7 +49,7 @@ public class ProduitDAO_BDD extends BDD implements ProduitDAO{
                 quantiteStock=resultSet.getInt("quantiteStock");
                 nom=resultSet.getString("nomProduit");
                 prixUnitaireHT=resultSet.getDouble("prixProduit");
-                produits.add(new Produit(nom, prixUnitaireHT, quantiteStock));
+                produits.add(ProduitFactory.creerProduit(nom, prixUnitaireHT, quantiteStock));
             }
             resultSet.close();
         } catch (SQLException throwables) {

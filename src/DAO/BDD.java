@@ -20,8 +20,6 @@ public abstract class BDD {
       }
    }
 
-   public void close(){
-
-   }
+   public void close(){}
 
 }
