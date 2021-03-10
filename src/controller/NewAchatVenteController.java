@@ -1,29 +1,21 @@
 package controller;
 
-import entity.Produit;
+import entity.Catalogue;
 
 public class NewAchatVenteController {
 
 
-    private Produit produit;
-    private int qtt;
+    private Catalogue catalogue;
 
-    public NewAchatVenteController(Produit produit, int qtt){
-        this.produit=produit;
-        this.qtt=qtt;
+    public NewAchatVenteController(Catalogue catalogue){
+        this.catalogue=catalogue;
     }
 
-    public String newAchat(){
-        if(produit.ajouter(qtt))
-            return "Achat effectué";
-        else
-            return "Echec d'achat";
+    public boolean newAchat(String nomProduit, int qte){
+        return catalogue.acheterStock(nomProduit, qte);
     }
 
-    public String newVente(){
-        if(produit.enlever(qtt))
-            return "Vente effectuée";
-        else
-            return "Echec de vente";
+    public Boolean newVente(String nomProduit, int qte){
+        return catalogue.vendreStock(nomProduit, qte);
     }
 }

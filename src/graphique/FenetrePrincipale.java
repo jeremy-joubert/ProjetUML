@@ -82,7 +82,7 @@ public class FenetrePrincipale extends JFrame implements ActionListener,
 //		String[] tabCategories = new String[] {"Bio", "Luxe" };
 
         if (e.getSource() == btAfficher)
-            new FenetreAffichage("ajourd'hui nous allons faire de la programmation en 5 couches");
+            new FenetreAffichage(controller.getInfoEtatStocksController().toString());
         if (e.getSource() == btNouveauProduit)
 //			new FenetreNouveauProduit(tabCategories);
             new FenetreNouveauProduit(controller.getEditerProduitController());
@@ -93,9 +93,9 @@ public class FenetrePrincipale extends JFrame implements ActionListener,
 //		if (e.getSource() == btSupprimerCategorie)
 //			new FenetreSuppressionCategorie(tabCategories);
         if (e.getSource() == btAchat)
-            new FenetreAchat(tabProduits);
+            new FenetreAchat(tabProduits, controller.getNewAchatVenteController());
         if (e.getSource() == btVente)
-            new FenetreVente(tabProduits);
+            new FenetreVente(tabProduits, controller.getNewAchatVenteController());
         if (e.getSource() == btQuitter){
             System.out.println("Au revoir");
             System.exit(0);
