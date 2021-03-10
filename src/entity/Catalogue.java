@@ -1,5 +1,7 @@
 package entity;
 
+import factory.ProduitFactory;
+
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
@@ -36,7 +38,7 @@ public class Catalogue implements I_Catalogue {
     public boolean addProduit(String nom, double prix, int qte) {
         if(qte>-1&&prix>0&&!verifiProduitExistant(nom)){
             try {
-                Produit produit=new Produit(nom, prix, qte);
+                I_Produit produit= ProduitFactory.creerProduit(nom, prix, qte);
                 lesProduits.add(produit);
                 return true;
             }catch (Exception e){
