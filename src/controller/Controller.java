@@ -14,7 +14,7 @@ public class Controller {
     private InfoEtatStocksController infoEtatStocksController;
 
     public Controller(){
-        catalogue=new Catalogue();
+        catalogue=new Catalogue("");
         remplirLeCatalogueAvecLesProduitsDeLaBDD(catalogue);
         editerProduitController=new EditerProduitController(catalogue);
         newAchatVenteController=new NewAchatVenteController(catalogue);

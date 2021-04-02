@@ -9,9 +9,11 @@ import java.util.List;
 
 public class Catalogue implements I_Catalogue {
     private ArrayList<I_Produit> lesProduits;
+    private String nomCatalogue;
 
-    public Catalogue() {
+    public Catalogue(String nomCatalogue) {
         lesProduits=new ArrayList<>();
+        this.nomCatalogue=nomCatalogue;
     }
 
     @Override
@@ -23,6 +25,10 @@ public class Catalogue implements I_Catalogue {
         }
         r=r+"\nMontant total TTC du stock : "+df.format(getMontantTotalTTC())+" €";
         return r;
+    }
+
+    public String getNomCatalogue(){
+        return nomCatalogue;
     }
 
     @Override
