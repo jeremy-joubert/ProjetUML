@@ -141,11 +141,14 @@
   <component name="libraryTable">
     <library name="jdom">
       <CLASSES>
-        <root url="jar://$USER_HOME$/Téléchargements/jdom.jar!/" />
         <root url="jar://$USER_HOME$/Downloads/jdom.jar!/" />
+        <root url="jar://$USER_HOME$/Downloads/sqlite-jdbc-3.5.7.jar!/" />
+        <root url="jar://$USER_HOME$/Downloads/ojdbc6.jar!/" />
       </CLASSES>
       <JAVADOC />
-      <SOURCES />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/Downloads/sqlite-jdbc-3.5.7.jar!/" />
+      </SOURCES>
     </library>
   </component>
 </project>

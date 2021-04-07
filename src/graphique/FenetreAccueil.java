@@ -1,5 +1,9 @@
 package graphique;
 
+import controller.CatalogueController;
+import controller.Controller;
+import entity.I_Catalogue;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -12,8 +16,10 @@ public class FenetreAccueil extends JFrame implements ActionListener {
     private JLabel lbNbCatalogues;
     private JComboBox cmbSupprimer, cmbSelectionner;
     private TextArea taDetailCatalogues;
+    private CatalogueController controller;
 
     public FenetreAccueil() {
+        controller=new CatalogueController();
         setTitle("Catalogues");
         setBounds(500, 500, 200, 125);
         Container contentPane = getContentPane();
@@ -77,9 +83,9 @@ public class FenetreAccueil extends JFrame implements ActionListener {
         btSupprimer.addActionListener(this);
         btSelectionner.addActionListener(this);
 
-        String[] tab  = {"Formacia" , "Le Redoutable", "Noitaicossa"};
+        String[] tab  = this.controller.afficherCatalogue();
         modifierListesCatalogues(tab);
-        String[] tab2 = {"Formacia : 6 produits" , "Le Redoutable : 4 produits" , "Noitaicossa : 0 produits" };
+        String[] tab2 = this.controller.afficherDetailCatalogue();
         modifierDetailCatalogues(tab2);
         modifierNbCatalogues(3);
         setVisible(true);
@@ -92,13 +98,16 @@ public class FenetreAccueil extends JFrame implements ActionListener {
             if (!texteAjout.equals(""))
             {
                 System.out.println("ajouter le catalogue "+texteAjout);
+                controller.creerCatalogue(texteAjout);
                 txtAjouter.setText(null);
+                repaint();
             }
         }
         if (e.getSource() == btSupprimer)
         {
             String texteSupprime = (String)cmbSupprimer.getSelectedItem();
             if (texteSupprime != null)
+                controller.supprimerCatalogue(texteSupprime);
                 System.out.println("supprime catalogue "+texteSupprime);
         }
         if (e.getSource() == btSelectionner)
@@ -106,7 +115,9 @@ public class FenetreAccueil extends JFrame implements ActionListener {
             String texteSelection = (String)cmbSupprimer.getSelectedItem();
             if (texteSelection != null)
             {
+                I_Catalogue catalogue = controller.choisirCatalogue(texteSelection);
                 System.out.println("selectionne catalogue "+texteSelection);
+                new FenetrePrincipale(new Controller(catalogue));
                 this.dispose();
             }
         }

@@ -1,9 +1,9 @@
 package test;
 
-import entity.Catalogue;
 import entity.I_Catalogue;
 import entity.I_Produit;
 import entity.Produit;
+import factory.CatalogueFactory;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -19,7 +19,7 @@ public class CatalogueTest {
 
     @Before
     public void setUp() {
-        cat = new Catalogue();
+        cat = CatalogueFactory.creerCatalogue("local");
 //		Si votre Catalogue est un Singleton, il faut changer la ligne précédente puis vider le Catalogue avec la méthode clear() comme indiqué à la ligne suivante
 //		cat.clear();
     }

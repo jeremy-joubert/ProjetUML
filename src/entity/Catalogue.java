@@ -27,7 +27,8 @@ public class Catalogue implements I_Catalogue {
         return r;
     }
 
-    public String getNomCatalogue(){
+    @Override
+    public String getNom() {
         return nomCatalogue;
     }
 

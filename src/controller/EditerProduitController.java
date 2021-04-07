@@ -1,13 +1,13 @@
 package controller;
 
 import DAO.ProduitDAO;
-import entity.Catalogue;
+import entity.I_Catalogue;
 import factory.ProduitDAOFactory;
 
 public class EditerProduitController{
-    private Catalogue catalogue;
+    private I_Catalogue catalogue;
 
-    public EditerProduitController(Catalogue catalogue){
+    public EditerProduitController(I_Catalogue catalogue){
         this.catalogue=catalogue;
     }
 

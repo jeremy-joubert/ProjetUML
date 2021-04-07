@@ -1,13 +1,13 @@
 package controller;
 
-import entity.Catalogue;
+import entity.I_Catalogue;
 
 public class NewAchatVenteController {
 
 
-    private Catalogue catalogue;
+    private I_Catalogue catalogue;
 
-    public NewAchatVenteController(Catalogue catalogue){
+    public NewAchatVenteController(I_Catalogue catalogue){
         this.catalogue=catalogue;
     }
 
