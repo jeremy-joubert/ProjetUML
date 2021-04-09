@@ -25,7 +25,7 @@ public class ProduitDAO_XML {
         }
     }
 
-    public boolean creer(I_Produit p) {
+    public boolean creer(I_Produit p, String nom) {
         try {
             Element root = doc.getRootElement();
             Element prod = new Element("produit");
@@ -34,6 +34,8 @@ public class ProduitDAO_XML {
             prod.addContent(prix.setText(String.valueOf(p.getPrixUnitaireHT())));
             Element qte = new Element("quantite");
             prod.addContent(qte.setText(String.valueOf(p.getQuantite())));
+            Element nomCatalogue = new Element("nomCatalogue");
+            prod.addContent(nomCatalogue.setText(nom));
             root.addContent(prod);
             return sauvegarde();
         } catch (Exception e) {
@@ -42,9 +44,9 @@ public class ProduitDAO_XML {
         }
     }
 
-    public boolean maj(I_Produit p) {
+    public boolean maj(I_Produit p, String nomCatalogue) {
         try {
-            Element prod = chercheProduit(p.getNom());
+            Element prod = chercheProduit(p.getNom(), nomCatalogue);
             if (prod != null) {
                 prod.getChild("quantite").setText(String.valueOf(p.getQuantite()));
                 return sauvegarde();
@@ -56,10 +58,10 @@ public class ProduitDAO_XML {
         }
     }
 
-    public boolean supprimer(I_Produit p) {
+    public boolean supprimer(I_Produit p, String nomCatalogue) {
         try {
             Element root = doc.getRootElement();
-            Element prod = chercheProduit(p.getNom());
+            Element prod = chercheProduit(p.getNom(), nomCatalogue);
             if (prod != null) {
                 root.removeContent(prod);
                 return sauvegarde();
@@ -71,8 +73,8 @@ public class ProduitDAO_XML {
         }
     }
 
-    public I_Produit lire(String nom) {
-        Element e = chercheProduit(nom);
+    public I_Produit lire(String nom, String nomCatalogue) {
+        Element e = chercheProduit(nom, nomCatalogue);
         if (e != null) {
             try {
                 return ProduitFactory.creerProduit(e.getAttributeValue("nom"), Double.parseDouble(e.getChildText("prixHT")), Integer.parseInt(e.getChildText("quantite")));
@@ -85,22 +87,19 @@ public class ProduitDAO_XML {
             return null;
     }
 
-    public List<I_Produit> lireTous() {
-
-        List<I_Produit> l = new ArrayList<I_Produit>();
-        try {
-            Element root = doc.getRootElement();
-            List<Element> lProd = root.getChildren("produit");
-
-            for (Element prod : lProd) {
-                String nomP = prod.getAttributeValue("nom");
-                Double prix = Double.parseDouble(prod.getChild("prixHT").getText());
-                int qte = Integer.parseInt(prod.getChild("quantite").getText());
-                l.add(ProduitFactory.creerProduit(nomP, prix, qte));
-            }
-        } catch (Exception e) {
-            System.out.println("erreur lireTous tous les produits");
+    public List<I_Produit> lireTous(String nomCatalogue) {
+        List<I_Produit> l = new ArrayList<>();
+        List<Element> lProd = chercherProduits(nomCatalogue);
+        if(lProd==null){
+            return l;
         }
+        for (Element prod : lProd) {
+            String nomP = prod.getAttributeValue("nom");
+            Double prix = Double.parseDouble(prod.getChild("prixHT").getText());
+            int qte = Integer.parseInt(prod.getChild("quantite").getText());
+            l.add(ProduitFactory.creerProduit(nomP, prix, qte));
+        }
+
         return l;
     }
 
@@ -116,15 +115,32 @@ public class ProduitDAO_XML {
         }
     }
 
-    private Element chercheProduit(String nom) {
+    private Element chercheProduit(String nom, String nomCatalogue) {
         Element root = doc.getRootElement();
         List<Element> lProd = root.getChildren("produit");
         int i = 0;
-        while (i < lProd.size() && !lProd.get(i).getAttributeValue("nom").equals(nom))
+        while (i < lProd.size() && !lProd.get(i).getAttributeValue("nom").equals(nom) && !lProd.get(i).getChildText("nomCatalogue").equals(nomCatalogue))
             i++;
-        if (i < lProd.size())
+        if (i < lProd.size()) {
             return lProd.get(i);
-        else
+        }else
             return null;
+    }
+
+    private List<Element> chercherProduits(String nomCatalogue){
+        try {
+            Element root = doc.getRootElement();
+            List<Element> lProd = root.getChildren("produit");
+            List<Element> listProduits=new ArrayList<>();
+            for(Element element : lProd){
+                if (element.getChildText("nomCatalogue").equals(nomCatalogue)){
+                    listProduits.add(element);
+                }
+            }
+            return listProduits;
+        }catch (Exception e) {
+            System.out.println("erreur cherhcer tous les produits");
+        }
+        return null;
     }
 }

@@ -1,24 +1,24 @@
 package controller;
 
 import DAO.ProduitDAO;
-import entity.Catalogue;
+import entity.I_Catalogue;
 import entity.I_Produit;
 import factory.ProduitDAOFactory;
 
 import java.util.List;
 
 public class Controller {
-    private Catalogue catalogue;
+    private I_Catalogue catalogue;
     private EditerProduitController editerProduitController;
     private NewAchatVenteController newAchatVenteController;
     private InfoEtatStocksController infoEtatStocksController;
 
-    public Controller(){
-        catalogue=new Catalogue();
-        remplirLeCatalogueAvecLesProduitsDeLaBDD(catalogue);
-        editerProduitController=new EditerProduitController(catalogue);
-        newAchatVenteController=new NewAchatVenteController(catalogue);
-        infoEtatStocksController=new InfoEtatStocksController(catalogue);
+    public Controller(I_Catalogue catalogue){
+        this.catalogue=catalogue;
+        remplirLeCatalogueAvecLesProduitsDeLaBDD(this.catalogue);
+        editerProduitController=new EditerProduitController(this.catalogue);
+        newAchatVenteController=new NewAchatVenteController(this.catalogue);
+        infoEtatStocksController=new InfoEtatStocksController(this.catalogue);
     }
 
     public EditerProduitController getEditerProduitController(){
@@ -37,9 +37,9 @@ public class Controller {
         return catalogue.getNomProduits();
     }
 
-    private void remplirLeCatalogueAvecLesProduitsDeLaBDD(Catalogue catalogue){
+    private void remplirLeCatalogueAvecLesProduitsDeLaBDD(I_Catalogue catalogue){
         ProduitDAO produitDAO= ProduitDAOFactory.getInstance();
-        List<I_Produit> produits=produitDAO.read();
+        List<I_Produit> produits=produitDAO.read(catalogue.getNom());
         for (I_Produit produit : produits){
             catalogue.addProduit(produit);
         }

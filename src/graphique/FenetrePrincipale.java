@@ -25,9 +25,9 @@ public class FenetrePrincipale extends JFrame implements ActionListener,
     private Controller controller;
 
 
-    public FenetrePrincipale() {
+    public FenetrePrincipale(Controller controller) {
 
-        controller=new Controller();
+        this.controller=controller;
         setTitle("exercice Produits");
         setBounds(500, 500, 320, 250);
         JPanel panAffichage = new JPanel();
@@ -115,10 +115,6 @@ public class FenetrePrincipale extends JFrame implements ActionListener,
     public void windowOpened(WindowEvent arg0) {}
 
 
-
-    public static void main(String[] args) {
-        new FenetrePrincipale();
-    }
 
 }
 

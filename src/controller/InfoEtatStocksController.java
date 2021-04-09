@@ -1,12 +1,12 @@
 package controller;
 
-import entity.Catalogue;
+import entity.I_Catalogue;
 
 public class InfoEtatStocksController {
 
-    private Catalogue catalogue;
+    private I_Catalogue catalogue;
 
-    public InfoEtatStocksController(Catalogue catalogue){
+    public InfoEtatStocksController(I_Catalogue catalogue){
         this.catalogue=catalogue;
     }
 
