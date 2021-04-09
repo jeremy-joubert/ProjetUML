@@ -1,7 +1,8 @@
 package DAO;
 
+import entity.I_Catalogue;
 import entity.I_Produit;
-import factory.ProduitFactory;
+import factory.CatalogueFactory;
 import org.jdom.Document;
 import org.jdom.Element;
 import org.jdom.input.SAXBuilder;
@@ -40,19 +41,17 @@ public class CatalogueDAO_XML implements CatalogueDAO {
 
     @Override
     public List read() {
-        List<I_Produit> l = new ArrayList<I_Produit>();
+        List<I_Catalogue> l = new ArrayList<>();
         try {
             Element root = doc.getRootElement();
-            List<Element> lProd = root.getChildren("produit");
+            List<Element> lProd = root.getChildren("catalogue");
 
             for (Element prod : lProd) {
-                String nomP = prod.getAttributeValue("nom");
-                Double prix = Double.parseDouble(prod.getChild("prixHT").getText());
-                int qte = Integer.parseInt(prod.getChild("quantite").getText());
-                l.add(ProduitFactory.creerProduit(nomP, prix, qte));
+                String nomCatalogue = prod.getAttributeValue("nomCatalogue");
+                l.add(CatalogueFactory.creerCatalogue(nomCatalogue));
             }
         } catch (Exception e) {
-            System.out.println("erreur lireTous tous les produits");
+            System.out.println("erreur lireTous tous les Catalogues");
         }
         return l;
     }
@@ -92,7 +91,7 @@ public class CatalogueDAO_XML implements CatalogueDAO {
         Element root = doc.getRootElement();
         List<Element> lProd = root.getChildren("catalogue");
         int i = 0;
-        while (i < lProd.size() && !lProd.get(i).getAttributeValue("nom").equals(nom))
+        while (i < lProd.size() && !lProd.get(i).getAttributeValue("nomCatalogue").equals(nom))
             i++;
         if (i < lProd.size())
             return lProd.get(i);

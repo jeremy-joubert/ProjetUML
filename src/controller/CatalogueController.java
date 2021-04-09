@@ -30,8 +30,6 @@ public class CatalogueController {
 
     public I_Catalogue choisirCatalogue(String nomCatalogue){
         I_Catalogue catalogue = CatalogueFactory.creerCatalogue(nomCatalogue);
-        List<I_Produit> produits = produitDAO.read(catalogue.getNom());
-        remplirCatalogueLocal(produits, catalogue);
         return catalogue;
     }
 
@@ -49,21 +47,17 @@ public class CatalogueController {
     public String[] afficherDetailCatalogue(){
         List<I_Catalogue> catalogues=catalogueDAO.read();
         String [] details=new String[catalogues.size()];
-        List<I_Produit> produits;
         int i=0;
         for (I_Catalogue catalogue : catalogues){
             String nom= catalogue.getNom();
-            produits = produitDAO.read(nom);
-            remplirCatalogueLocal(produits, catalogue);
-            details[i]=nom+" : "+catalogue.getNomProduits().length+" produit(s)";
+            details[i]=nom+" : "+getNbProduit(catalogue)+" produit(s)";
             i++;
         }
         return details;
     }
 
-    private void remplirCatalogueLocal(List<I_Produit> produits, I_Catalogue catalogue){
-        for (I_Produit produit : produits){
-            catalogue.addProduit(produit);
-        }
+    private int getNbProduit(I_Catalogue catalogue){
+         List<I_Produit> list = produitDAO.read(catalogue.getNom());
+         return list.size();
     }
 }

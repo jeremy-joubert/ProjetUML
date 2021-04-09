@@ -20,21 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8115d3f-2028-4432-a99b-d2010671739f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DAO/CatalogueDAO_XML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bdd/Catalogue.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjetSQL.iws" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetSQL.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSQL/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSQL/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetSQL/entity/I_Catalogue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSQL/entity/I_Catalogue.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DAO/Adaptateur_ProduitDAO_XML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/Adaptateur_ProduitDAO_XML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DAO/CatalogueDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/CatalogueDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DAO/CatalogueDAO_BDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/CatalogueDAO_BDD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DAO/ProduitDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/ProduitDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DAO/ProduitDAO_BDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/ProduitDAO_BDD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bdd/bdd.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/bdd/bdd.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/CatalogueDAO_XML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/CatalogueDAO_XML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/ProduitDAO_XML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/ProduitDAO_XML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bdd/Catalogue.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/bdd/Catalogue.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bdd/Produits.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/bdd/Produits.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/CatalogueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/CatalogueController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/EditerProduitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/EditerProduitController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/NewAchatVenteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/NewAchatVenteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphique/FenetreAccueil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphique/FenetreAccueil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,10 +45,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/NewAchatVenteController.java">
+        <entry file="file://$PROJECT_DIR$/src/factory/ProduitDAOFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="144">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/graphique/FenetreAccueil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="924">
+              <caret line="138" column="50" selection-start-line="138" selection-start-column="50" selection-end-line="138" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,28 +66,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/bdd/bdd.sql">
+        <entry file="file://$PROJECT_DIR$/src/controller/CatalogueController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" selection-start-line="9" selection-end-line="16" selection-end-column="2" />
+            <state relative-caret-position="276">
+              <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/EditerProduitController.java">
+        <entry file="file://$PROJECT_DIR$/src/factory/CatalogueDAOFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DAO/Adaptateur_ProduitDAO_XML.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="36" column="61" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
+            <state relative-caret-position="168">
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,27 +112,29 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/factory/ProduitDAOFactory.java" />
         <option value="$PROJECT_DIR$/src/factory/CatalogueFactory.java" />
-        <option value="$PROJECT_DIR$/src/factory/CatalogueDAOFactory.java" />
         <option value="$PROJECT_DIR$/src/controller/InfoEtatStocksController.java" />
         <option value="$PROJECT_DIR$/src/graphique/FenetrePrincipale.java" />
         <option value="$PROJECT_DIR$/src/test/CatalogueTest.java" />
         <option value="$PROJECT_DIR$/src/entity/I_Catalogue.java" />
         <option value="$PROJECT_DIR$/src/entity/Catalogue.java" />
-        <option value="$PROJECT_DIR$/src/graphique/FenetreAccueil.java" />
         <option value="$PROJECT_DIR$/src/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/DAO/CatalogueDAO.java" />
-        <option value="$PROJECT_DIR$/src/controller/CatalogueController.java" />
         <option value="$PROJECT_DIR$/src/DAO/ProduitDAO.java" />
-        <option value="$PROJECT_DIR$/src/DAO/Adaptateur_ProduitDAO_XML.java" />
         <option value="$PROJECT_DIR$/src/controller/EditerProduitController.java" />
         <option value="$PROJECT_DIR$/src/controller/NewAchatVenteController.java" />
         <option value="$PROJECT_DIR$/src/DAO/ProduitDAO_BDD.java" />
         <option value="$PROJECT_DIR$/src/DAO/CatalogueDAO_BDD.java" />
         <option value="$PROJECT_DIR$/src/bdd/bdd.sql" />
         <option value="$PROJECT_DIR$/src/bdd/Catalogue.xml" />
+        <option value="$PROJECT_DIR$/src/DAO/Adaptateur_ProduitDAO_XML.java" />
+        <option value="$PROJECT_DIR$/src/bdd/Produits.xml" />
         <option value="$PROJECT_DIR$/src/DAO/CatalogueDAO_XML.java" />
+        <option value="$PROJECT_DIR$/src/DAO/ProduitDAO_XML.java" />
+        <option value="$PROJECT_DIR$/src/factory/CatalogueDAOFactory.java" />
+        <option value="$PROJECT_DIR$/src/factory/ProduitDAOFactory.java" />
+        <option value="$PROJECT_DIR$/src/graphique/FenetreAccueil.java" />
+        <option value="$PROJECT_DIR$/src/controller/CatalogueController.java" />
       </list>
     </option>
   </component>
@@ -155,8 +156,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,6 +236,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -406,7 +407,8 @@
       <workItem from="1617508063770" duration="816000" />
       <workItem from="1617677910901" duration="16000" />
       <workItem from="1617783134076" duration="8471000" />
-      <workItem from="1617938595931" duration="5482000" />
+      <workItem from="1617938595931" duration="5576000" />
+      <workItem from="1617955602272" duration="4184000" />
     </task>
     <task id="LOCAL-00001" summary="inintialisation">
       <created>1612524498539</created>
@@ -520,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617792038109</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Preque fini dao catalogue bdd et debut dao xml">
+      <created>1617944162184</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1617944162184</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -532,12 +541,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19383000" />
+    <option name="totallyTimeSpent" value="23661000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24253732" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24520256" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -643,7 +653,8 @@
     <MESSAGE value="DAO" />
     <MESSAGE value="UPDATE BDD ( catalogue )" />
     <MESSAGE value="Page acceuil fonctionnel(select, create, detail)&#10;il reste delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Page acceuil fonctionnel(select, create, detail)&#10;il reste delete" />
+    <MESSAGE value="Preque fini dao catalogue bdd et debut dao xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Preque fini dao catalogue bdd et debut dao xml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="681" y="245" width="374" height="585" key="#com.intellij.ide.util.MemberChooser" />
@@ -712,27 +723,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory/CatalogueDAOFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/factory/ProduitFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory/ProduitDAOFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -800,70 +794,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAO/CatalogueDAO_BDD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="70" column="41" lean-forward="true" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1697#1698#0" expanded="true" />
-            <element signature="e#1725#1726#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/graphique/FenetreAccueil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="101" column="26" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5225#5226#0" expanded="true" />
-            <element signature="e#5283#5284#0" expanded="true" />
-            <element signature="e#5625#5626#0" expanded="true" />
-            <element signature="e#5661#5662#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/NewAchatVenteController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="768">
           <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/CatalogueController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="27" column="8" selection-start-line="26" selection-start-column="55" selection-end-line="27" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/EditerProduitController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bdd/Produits.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -877,30 +811,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bdd/Catalogue.xml">
+    <entry file="file://$PROJECT_DIR$/src/bdd/bdd.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        <state relative-caret-position="144">
+          <caret line="6" column="52" lean-forward="true" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAO/CatalogueDAO_XML.java">
+    <entry file="file://$PROJECT_DIR$/src/controller/EditerProduitController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="42" column="22" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1172#1183#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="96">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAO/ProduitDAO_XML.java">
+    <entry file="file://$PROJECT_DIR$/src/controller/NewAchatVenteController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="103" column="17" lean-forward="true" selection-start-line="89" selection-start-column="7" selection-end-line="103" selection-end-column="17" />
+        <state relative-caret-position="648">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -909,15 +837,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DAO/Adaptateur_ProduitDAO_XML.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="36" column="61" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
+        <state relative-caret-position="744">
+          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bdd/bdd.sql">
+    <entry file="file://$PROJECT_DIR$/src/DAO/CatalogueDAO_BDD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" selection-start-line="9" selection-end-line="16" selection-end-column="2" />
+        <state relative-caret-position="1452">
+          <caret line="70" column="41" lean-forward="true" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1697#1698#0" expanded="true" />
+            <element signature="e#1725#1726#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAO/CatalogueDAO_XML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="93" column="80" selection-start-line="93" selection-start-column="80" selection-end-line="93" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bdd/Catalogue.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bdd/Produits.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAO/ProduitDAO_XML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1116">
+          <caret line="66" column="36" lean-forward="true" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory/CatalogueDAOFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory/ProduitDAOFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphique/FenetreAccueil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="138" column="50" selection-start-line="138" selection-start-column="50" selection-end-line="138" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/CatalogueController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

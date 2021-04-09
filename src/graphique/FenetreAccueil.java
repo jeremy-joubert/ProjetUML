@@ -87,7 +87,7 @@ public class FenetreAccueil extends JFrame implements ActionListener {
         modifierListesCatalogues(tab);
         String[] tab2 = this.controller.afficherDetailCatalogue();
         modifierDetailCatalogues(tab2);
-        modifierNbCatalogues(3);
+        modifierNbCatalogues(tab.length);
         setVisible(true);
     }
 
@@ -112,7 +112,7 @@ public class FenetreAccueil extends JFrame implements ActionListener {
         }
         if (e.getSource() == btSelectionner)
         {
-            String texteSelection = (String)cmbSupprimer.getSelectedItem();
+            String texteSelection = (String)cmbSelectionner.getSelectedItem();
             if (texteSelection != null)
             {
                 I_Catalogue catalogue = controller.choisirCatalogue(texteSelection);
@@ -136,7 +136,7 @@ public class FenetreAccueil extends JFrame implements ActionListener {
 
     private void modifierNbCatalogues(int nb)
     {
-        lbNbCatalogues.setText(nb + " catalogues");
+        lbNbCatalogues.setText(nb + " catalogue(s)");
     }
 
     private void modifierDetailCatalogues(String[] detailCatalogues) {
