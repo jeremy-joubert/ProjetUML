@@ -15,7 +15,7 @@ public class Controller {
 
     public Controller(I_Catalogue catalogue){
         this.catalogue=catalogue;
-        //remplirLeCatalogueAvecLesProduitsDeLaBDD(this.catalogue);
+        remplirLeCatalogueAvecLesProduitsDeLaBDD(this.catalogue);
         editerProduitController=new EditerProduitController(this.catalogue);
         newAchatVenteController=new NewAchatVenteController(this.catalogue);
         infoEtatStocksController=new InfoEtatStocksController(this.catalogue);
@@ -39,7 +39,7 @@ public class Controller {
 
     private void remplirLeCatalogueAvecLesProduitsDeLaBDD(I_Catalogue catalogue){
         ProduitDAO produitDAO= ProduitDAOFactory.getInstance();
-        List<I_Produit> produits=produitDAO.read();
+        List<I_Produit> produits=produitDAO.read(catalogue.getNom());
         for (I_Produit produit : produits){
             catalogue.addProduit(produit);
         }

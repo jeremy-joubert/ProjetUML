@@ -13,7 +13,7 @@ public class Adaptateur_ProduitDAO_XML implements ProduitDAO {
     }
 
     @Override
-    public boolean create(String nomProduit, double prix, int qte) {
+    public boolean create(String nomProduit, double prix, int qte, String nomCatalogue) {
         try {
             return adapteur.creer(ProduitFactory.creerProduit(nomProduit, prix, qte));
         } catch (Exception e) {
@@ -23,18 +23,18 @@ public class Adaptateur_ProduitDAO_XML implements ProduitDAO {
     }
 
     @Override
-    public List read() {
+    public List read(String nomCatalogue) {
         return adapteur.lireTous();
     }
 
     @Override
-    public boolean update(String nomProduit, int qte) {
+    public boolean update(String nomProduit, int qte, String nomCatalogue) {
         I_Produit produit=adapteur.lire(nomProduit);
         return adapteur.maj(produit);
     }
 
     @Override
-    public void delete(String nomProduit) {
+    public void delete(String nomProduit, String nomCatalogue) {
         I_Produit produit=adapteur.lire(nomProduit);
         adapteur.supprimer(produit);
     }

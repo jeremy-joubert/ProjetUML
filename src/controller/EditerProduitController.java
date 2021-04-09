@@ -14,12 +14,12 @@ public class EditerProduitController{
     public void nouveauProduit(String nomProduit, double prix, int qte){
         catalogue.addProduit(nomProduit, prix, qte);
         ProduitDAO dao=ProduitDAOFactory.getInstance();
-        dao.create(nomProduit, prix, qte);
+        dao.create(nomProduit, prix, qte, catalogue.getNom());
     }
 
     public void suppressionProduit(String nomProduit){
         catalogue.removeProduit(nomProduit);
         ProduitDAO dao=ProduitDAOFactory.getInstance();
-        dao.delete(nomProduit);
+        dao.delete(nomProduit, catalogue.getNom());
     }
 }
