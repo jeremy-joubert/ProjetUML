@@ -65,7 +65,7 @@ public class ProduitDAO_BDD extends BDD implements ProduitDAO{
         try {
             PreparedStatement preparedStatement=connection.prepareStatement("" +
                     "UPDATE Produits " +
-                    "SET quantiteStock=?" +
+                    "SET quantiteStock=quantiteStock+?" +
                     "WHERE nomProduit=?");
             preparedStatement.setInt(1, qte);
             preparedStatement.setString(2, nomProduit);
@@ -78,7 +78,15 @@ public class ProduitDAO_BDD extends BDD implements ProduitDAO{
 
     @Override
     public void delete(String nomProduit) {
-
+        try {
+            PreparedStatement preparedStatement=connection.prepareStatement("" +
+                    "DELETE FROM Produits " +
+                    "WHERE nomProduit=?");
+            preparedStatement.setString(1, nomProduit);
+            preparedStatement.execute();
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
     }
 
     @Override

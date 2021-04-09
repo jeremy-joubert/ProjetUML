@@ -132,7 +132,7 @@
       <module fileurl="file://$PROJECT_DIR$/ProjetSQL.iml" filepath="$PROJECT_DIR$/ProjetSQL.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="true" project-jdk-name="12" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="VcsDirectoryMappings">
@@ -142,6 +142,7 @@
     <library name="jdom">
       <CLASSES>
         <root url="jar://$USER_HOME$/Téléchargements/jdom.jar!/" />
+        <root url="jar://$USER_HOME$/Downloads/jdom.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />

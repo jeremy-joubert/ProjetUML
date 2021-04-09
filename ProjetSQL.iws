@@ -20,20 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8115d3f-2028-4432-a99b-d2010671739f" name="Default Changelist" comment="DAO">
-      <change afterPath="$PROJECT_DIR$/src/DAO/Adaptateur_ProduitDAO_XML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAO/ProduitDAO_XML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bdd/Produits.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/ProduitFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetSQL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetSQL.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjetSQL.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetSQL.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjetSQL.iws" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetSQL.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSQL/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSQL/controller/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetSQL/entity/Catalogue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSQL/entity/Catalogue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSQL/entity/I_Catalogue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSQL/entity/I_Catalogue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSQL/entity/I_Produit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSQL/entity/I_Produit.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetSQL/entity/Produit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSQL/entity/Produit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DAO/BDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/BDD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSQL/graphique/FenetreAchat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSQL/graphique/FenetreAchat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSQL/graphique/FenetreAffichage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSQL/graphique/FenetreAffichage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSQL/graphique/FenetreNouveauProduit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSQL/graphique/FenetreNouveauProduit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSQL/graphique/FenetrePrincipale.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSQL/graphique/FenetrePrincipale.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSQL/graphique/FenetreSuppressionProduit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSQL/graphique/FenetreSuppressionProduit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetSQL/graphique/FenetreVente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetSQL/graphique/FenetreVente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/Adaptateur_ProduitDAO_XML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/Adaptateur_ProduitDAO_XML.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DAO/ProduitDAO_BDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/ProduitDAO_BDD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Catalogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Catalogue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factory/ProduitDAOFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/factory/ProduitDAOFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bdd/Produits.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/bdd/Produits.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/NewAchatVenteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/NewAchatVenteController.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +50,57 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entity/Catalogue.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DAO/Adaptateur_ProduitDAO_XML.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DAO/ProduitDAO_BDD.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-84">
+              <caret line="67" column="53" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/NewAchatVenteController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DAO/ProduitDAO_XML.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-564">
+              <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,15 +113,85 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/DAO/ProduitDAO_XML.java" />
+        <option value="$PROJECT_DIR$/src/controller/NewAchatVenteController.java" />
+        <option value="$PROJECT_DIR$/src/DAO/ProduitDAO_BDD.java" />
+        <option value="$PROJECT_DIR$/src/DAO/Adaptateur_ProduitDAO_XML.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectId" id="1pIWJilJirVCPzWCcWB9ZTi8o8V" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="ProjetSQL" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ProjetSQL" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="ProjetSQL" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ProjetSQL" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ProjetSQL" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ProjetSQL" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ProjetSQL" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ProjetSQL" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="DAO" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ProjetSQL" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ProjetSQL" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="entity" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ProjetSQL" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ProjetSQL" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="factory" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ProjetSQL" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ProjetSQL" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="graphique" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -81,7 +208,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/bdd" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jdom.jar!/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -90,7 +217,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -107,7 +234,32 @@
       <recent name="$PROJECT_DIR$/jar" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager" selected="Application.FenetrePrincipale">
+    <configuration name="FenetreAccueil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphique.FenetreAccueil" />
+      <module name="ProjetSQL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graphique.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FenetrePrincipale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graphique.FenetrePrincipale" />
       <module name="ProjetSQL" />
@@ -168,29 +320,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CatalogueTest.testVendreProduit_quantiteNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProjetSQL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.CatalogueTest" />
-      <option name="METHOD_NAME" value="testVendreProduit_quantiteNegative" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.FenetrePrincipale" />
+        <item itemvalue="Application.FenetreAccueil" />
         <item itemvalue="JUnit.CatalogueTest" />
         <item itemvalue="JUnit.CatalogueTest.testToString_CatalogueAvecDesProduits_TotalAvecDeuxChiffresApresVirgule" />
         <item itemvalue="JUnit.CatalogueTest.testAddProduitStringDoubleInt_stockNul" />
-        <item itemvalue="JUnit.CatalogueTest.testVendreProduit_quantiteNegative" />
       </list>
     </recent_temporary>
   </component>
@@ -220,6 +356,7 @@
       <workItem from="1615215382673" duration="5226000" />
       <workItem from="1615387819134" duration="8000" />
       <workItem from="1615389248919" duration="3565000" />
+      <workItem from="1617960779697" duration="837000" />
     </task>
     <task id="LOCAL-00001" summary="inintialisation">
       <created>1612524498539</created>
@@ -322,20 +459,79 @@
     <option name="localTasksCounter" value="15" />
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1128000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20575693" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32998884" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49946696" visible="true" weight="0.32998884" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.32998884" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32995495" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inintialisation" />
@@ -345,54 +541,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="DAO" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="681" y="245" width="374" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1615391167575">
-      <screen x="67" y="27" width="1613" height="1023" />
-    </state>
-    <state x="681" y="245" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/67.27.1613.1023@67.27.1613.1023" timestamp="1615391167575" />
-    <state x="707" y="332" width="324" height="524" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1615390360383">
-      <screen x="67" y="27" width="1613" height="1023" />
-    </state>
-    <state x="707" y="332" width="324" height="524" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/67.27.1613.1023@67.27.1613.1023" timestamp="1615390360383" />
-    <state x="516" y="27" width="694" height="1023" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1615219549278">
-      <screen x="67" y="27" width="1613" height="1023" />
-    </state>
-    <state x="516" y="27" width="694" height="1023" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1613.1023@67.27.1613.1023" timestamp="1615219549278" />
-    <state x="501" y="338" width="735" height="513" key="FileChooserDialogImpl" timestamp="1615390357369">
-      <screen x="67" y="27" width="1613" height="1023" />
-    </state>
-    <state x="501" y="338" width="735" height="513" key="FileChooserDialogImpl/67.27.1613.1023@67.27.1613.1023" timestamp="1615390357369" />
-    <state width="1567" height="268" key="GridCell.Tab.0.bottom" timestamp="1615391999253">
-      <screen x="67" y="27" width="1613" height="1023" />
-    </state>
-    <state width="1567" height="268" key="GridCell.Tab.0.bottom/67.27.1613.1023@67.27.1613.1023" timestamp="1615391999253" />
-    <state width="1567" height="268" key="GridCell.Tab.0.center" timestamp="1615391999252">
-      <screen x="67" y="27" width="1613" height="1023" />
-    </state>
-    <state width="1567" height="268" key="GridCell.Tab.0.center/67.27.1613.1023@67.27.1613.1023" timestamp="1615391999252" />
-    <state width="1567" height="268" key="GridCell.Tab.0.left" timestamp="1615391999252">
-      <screen x="67" y="27" width="1613" height="1023" />
-    </state>
-    <state width="1567" height="268" key="GridCell.Tab.0.left/67.27.1613.1023@67.27.1613.1023" timestamp="1615391999252" />
-    <state width="1567" height="268" key="GridCell.Tab.0.right" timestamp="1615391999253">
-      <screen x="67" y="27" width="1613" height="1023" />
-    </state>
-    <state width="1567" height="268" key="GridCell.Tab.0.right/67.27.1613.1023@67.27.1613.1023" timestamp="1615391999253" />
-    <state x="362" y="172" width="1024" height="845" key="SettingsEditor" timestamp="1615390444786">
-      <screen x="67" y="27" width="1613" height="1023" />
-    </state>
-    <state x="362" y="172" width="1024" height="845" key="SettingsEditor/67.27.1613.1023@67.27.1613.1023" timestamp="1615390444786" />
-    <state x="468" y="259" width="800" height="556" key="Vcs.Push.Dialog.v2" timestamp="1615220519538">
-      <screen x="67" y="27" width="1613" height="1023" />
-    </state>
-    <state x="468" y="259" width="800" height="556" key="Vcs.Push.Dialog.v2/67.27.1613.1023@67.27.1613.1023" timestamp="1615220519538" />
-    <state x="644" y="452" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615390050811">
-      <screen x="67" y="27" width="1613" height="1023" />
-    </state>
-    <state x="644" y="452" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1613.1023@67.27.1613.1023" timestamp="1615390050811" />
-    <state x="182" y="139" width="1372" height="796" key="new project wizard" timestamp="1615198964736">
-      <screen x="67" y="27" width="1613" height="1023" />
-    </state>
-    <state x="182" y="139" width="1372" height="796" key="new project wizard/67.27.1613.1023@67.27.1613.1023" timestamp="1615198964736" />
+    <state x="681" y="245" width="374" height="585" key="#com.intellij.ide.util.MemberChooser" />
+    <state x="681" y="245" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/67.27.1613.1023@67.27.1613.1023" />
+    <state x="707" y="332" width="324" height="524" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" />
+    <state x="707" y="332" width="324" height="524" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/67.27.1613.1023@67.27.1613.1023" />
+    <state x="516" y="27" width="694" height="1023" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" />
+    <state x="516" y="27" width="694" height="1023" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1613.1023@67.27.1613.1023" />
+    <state x="501" y="338" width="735" height="513" key="FileChooserDialogImpl" />
+    <state x="501" y="338" width="735" height="513" key="FileChooserDialogImpl/67.27.1613.1023@67.27.1613.1023" />
+    <state width="1567" height="268" key="GridCell.Tab.0.bottom" />
+    <state width="1567" height="268" key="GridCell.Tab.0.bottom/67.27.1613.1023@67.27.1613.1023" />
+    <state width="1567" height="268" key="GridCell.Tab.0.center" />
+    <state width="1567" height="268" key="GridCell.Tab.0.center/67.27.1613.1023@67.27.1613.1023" />
+    <state width="1567" height="268" key="GridCell.Tab.0.left" />
+    <state width="1567" height="268" key="GridCell.Tab.0.left/67.27.1613.1023@67.27.1613.1023" />
+    <state width="1567" height="268" key="GridCell.Tab.0.right" />
+    <state width="1567" height="268" key="GridCell.Tab.0.right/67.27.1613.1023@67.27.1613.1023" />
+    <state x="362" y="172" width="1024" height="845" key="SettingsEditor" />
+    <state x="362" y="172" width="1024" height="845" key="SettingsEditor/67.27.1613.1023@67.27.1613.1023" />
+    <state x="468" y="259" width="800" height="556" key="Vcs.Push.Dialog.v2" />
+    <state x="468" y="259" width="800" height="556" key="Vcs.Push.Dialog.v2/67.27.1613.1023@67.27.1613.1023" />
+    <state x="644" y="452" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" />
+    <state x="644" y="452" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1613.1023@67.27.1613.1023" />
+    <state x="182" y="139" width="1372" height="796" key="new project wizard" />
+    <state x="182" y="139" width="1372" height="796" key="new project wizard/67.27.1613.1023@67.27.1613.1023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -400,6 +572,7 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/CatalogueTest.java</url>
           <line>692</line>
+          <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
@@ -408,5 +581,151 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/DAO/CatalogueDAO_XML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphique/FenetreAccueil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2088" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Catalogue.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/EditerProduitController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/InfoEtatStocksController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/NewAchatVenteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAO/ProduitDAO_BDD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="67" column="53" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory/ProduitDAOFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAO/ProduitDAO_XML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-564">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAO/Adaptateur_ProduitDAO_XML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ProjetSQL</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jdom</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

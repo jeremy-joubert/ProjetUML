@@ -30,6 +30,11 @@ public class Adaptateur_ProduitDAO_XML implements ProduitDAO {
     @Override
     public boolean update(String nomProduit, int qte) {
         I_Produit produit=adapteur.lire(nomProduit);
+        if(qte<0){
+            produit.enlever(qte*-1);
+        }else {
+            produit.ajouter(qte);
+        }
         return adapteur.maj(produit);
     }
 
